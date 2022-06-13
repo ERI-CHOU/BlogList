@@ -1,0 +1,12 @@
+GET http://localhost:3003/api/blogs
+
+###
+POST  http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+  "title": "this is a test title for bloglists",
+  "author": "anonymous",
+  "url": "https://localhost:3001/api/persons",
+  "likes": 2
+}
